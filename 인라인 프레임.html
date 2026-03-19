@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>iframe srcdoc으로 THML문서속에 HTML문서넣기</h2>
+    <hr>
+    <iframe src="iframe1.html"
+    width="200"
+    height="100"
+    srcdoc="
+    <html>
+        <head></head>
+        <h3>iframe안의 제목</h3>
+        <body>
+        iframe 밑의 설명
+        </body>
+
+        </thml>
+    "
+    ></iframe>
+</body>
+</html>
